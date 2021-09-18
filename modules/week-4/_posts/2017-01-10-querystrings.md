@@ -10,6 +10,8 @@ jotted: true
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
 
  <button class="tablinks" onclick="openTab(event, 'PHP')">QueryStrings with PHP</button>
+
+  <button class="tablinks" onclick="openTab(event, 'Example')">Example</button>
  
 </div>
 
@@ -23,8 +25,20 @@ The web doesn't have state because of the high volume of users would decimate th
 <p>What is the code to access querystrings on a PHP form</p>
 
   ```php
-    $_GET["NameofVariable"]
+    $_GET["NameofVariable"] // to get a specific variable from the querystring
     $_SERVER['QUERY_STRING'] // what does that do?
   ```
   </div>
+</div>
+<div id="PHP" class="tabcontent">
+<div class="tabhtml" markdown="1">
+    
+```php
+<?php
+
+    $user_name = $_GET["username"];
+    echo("my username is: " . $user_name); // notice the "." for concatenation
+?>
+```
+</div>
 </div>
