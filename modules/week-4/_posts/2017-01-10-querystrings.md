@@ -1,6 +1,6 @@
 ---
 title: QueryStrings
-module: 3
+module: 4
 jotted: true
 ---
 
@@ -30,7 +30,7 @@ The web doesn't have state because of the high volume of users would decimate th
   ```
   </div>
 </div>
-<div id="PHP" class="tabcontent">
+<div id="Example" class="tabcontent">
 <div class="tabhtml" markdown="1">
     
 ```php
