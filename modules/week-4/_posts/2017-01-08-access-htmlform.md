@@ -7,9 +7,8 @@ jotted: true
 <div class="tab">
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
   <button class="tablinks" onclick="openTab(event, 'Create')">Create a HTML Form</button>
- <button class="tablinks" onclick="openTab(event, 'Display')">Questions</button>
- <button class="tablinks" onclick="openTab(event, 'BasicForm')">Basic Form</button>
- 
+ <button class="tablinks" onclick="openTab(event, 'Display')">Retrieve Data</button>
+  
  
 </div>
 
@@ -23,22 +22,8 @@ Keep in mind that PHP uses regular HTML forms.  There is no code behind, but we 
 Create HTML Form
 <p>
 How do we create a basic input form?</p>
-<p>
-How do we send data to the PHP code?</p>
-<p>
-What role does method and action play?</p>
-</div>
 
-<div id="Display" class="tabcontent">
-Access Data with PHP
-<p>
-How do we display the data entered?</p>
-<p>
-What is the difference between $_GET and $_POST?</p>
-</div>
-<div id="BasicForm" class="tabcontent">
-Let's start with a basic form
-
+```html
 <html>
     <head>
         <title>Login!</title>
@@ -71,4 +56,31 @@ Let's start with a basic form
         </form>
     </body>
 </html>
+```
+
 </div>
+
+<div id="Display" class="tabcontent">
+Access Data with PHP
+
+<p>What is the difference between $_GET and $_POST?</p>
+
+POST puts all the data in hidden fields while GET puts it into the QueryString.
+
+```php
+<?php
+
+    // This makes sure it's a post action
+    if($_SERVER["REQUEST_METHOD"] == "POST")
+    {
+        // gets the username from the form by looking at the name attribute
+        // $username is how variables are created - ($) before the variable name
+        // not strongly typed
+        $username = $_POST["username"];
+        // gets the pwd by looking at the pwd attribute
+        $pwd = $_POST["pwd"];
+    }
+?>
+```
+</div>
+

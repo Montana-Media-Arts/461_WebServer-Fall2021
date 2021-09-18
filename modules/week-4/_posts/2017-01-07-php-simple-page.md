@@ -1,6 +1,6 @@
 ---
 title: PHP Simple Page
-module: 3
+module: 4
 ---
 
 # Create a PHP Page
