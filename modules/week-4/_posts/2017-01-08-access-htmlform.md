@@ -18,7 +18,7 @@ PHP and HTML Forms
 Keep in mind that PHP uses regular HTML forms.  There is no code behind, but we can still access the data.</p>
 </div>
 
-<div id="Create" class="tabcontent">
+<div id="Create" class="tabcontent" markdown="1">
 Create HTML Form
 <p>
 How do we create a basic input form?</p>
@@ -60,7 +60,7 @@ How do we create a basic input form?</p>
 
 </div>
 
-<div id="Display" class="tabcontent">
+<div id="Display" class="tabcontent" markdown="1">
 Access Data with PHP
 
 <p>What is the difference between $_GET and $_POST?</p>
