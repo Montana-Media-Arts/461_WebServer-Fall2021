@@ -1,6 +1,6 @@
 ---
 title: Weekly Conclusions
-module: 7
+module: 6
 jotted: false
 ---
 

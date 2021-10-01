@@ -1,6 +1,6 @@
 ---
 title: Connect ASP.NET
-module: 7
+module: 6
 jotted: false
 ---
 
