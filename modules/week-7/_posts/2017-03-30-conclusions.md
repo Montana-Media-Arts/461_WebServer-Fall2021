@@ -6,4 +6,4 @@ jotted: false
 
 # Weekly Conclusions
 
-We looked at creating stored procedures and all that goes into that.
+We looked at creating stored procedures and abtracting all the code required to make things more reusable.

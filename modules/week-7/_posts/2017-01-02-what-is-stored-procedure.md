@@ -1,6 +1,6 @@
 ---
 title: What is a stored procedure?
-module: 9
+module: 7
 jotted: false
 ---
 
@@ -29,9 +29,9 @@ EXEC procedure_name;
 
 There are at least four advantages I can think of to use an SP in a database application.
 
-Firstly, it reduces the network traffic and overhead. In a typical PHP database web application, there are four layers:
+Firstly, it reduces the network traffic and overhead. In a typical database web application, there are four layers:
 
 1. The client layer, which is normally a web browser. It receives user interactions and presents the data in a UI.
 2. The web server layer, which handles and dispatches user requests and sends back responses to the client layer.
-3. The PHP layer, which handles all PHP interpretation, does the application logic and generates the PHP part of response.
+3. The business layer, which handles all interpretation, does the application logic and generates the response.
 4. The database layer, which handles all database queries, including but not limited to a SELECT query, an INSERT statement, etc.

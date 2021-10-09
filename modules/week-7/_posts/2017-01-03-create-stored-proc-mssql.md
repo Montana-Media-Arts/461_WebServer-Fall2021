@@ -1,6 +1,6 @@
 ---
 title: Create Stored Procedure in MS SQL Server
-module: 9
+module: 7
 jotted: false
 ---
 
