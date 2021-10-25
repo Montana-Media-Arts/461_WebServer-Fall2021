@@ -6,4 +6,4 @@ jotted: false
 
 # Weekly Conclusions
 
-This week we looked how to create and implement stored procedures.
+This week we looked how to use PHP and mySQL to accomplish similar database work.

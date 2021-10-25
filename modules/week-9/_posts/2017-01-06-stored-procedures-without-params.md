@@ -1,6 +1,6 @@
 ---
 title: Stored Procedures without parameters
-module: 7
+module: 9
 jotted: true
 ---
 
