@@ -1,6 +1,6 @@
 ---
 title: Stored Persistant XSS
-module: 11
+module: 12
 jotted: false
 ---
 
